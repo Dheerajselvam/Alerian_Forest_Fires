@@ -1,2 +1,5 @@
 # Alerian_Forest_Fires
-Machine Learning Model Implementation and Data Analysis on weathere Conditions to predict forest fires
+
+My project’s goal was to predict if there will be a fire in a future date given the weather conditions. My dataset contained of 10 features including the date and the output label which indicated if there will be a fire or not. I tried to tackle this problem by creating and comparing 7 models including the trivial and baseline models namely trivial, N-means, Bayes Minimum error classifier, Perceptron algorithm with Sequential GD and Scheduler, MSE LMS algorithm with sequential GD and Scheduler, SVM Linear Classifier, SVM nonlinear RBF kernel classifier. In addition, I performed certain preprocessing, feature expansion, feature selection on the dataset to maximize the accuracies I got on the models.
+The best accuracy achieved was 95% by MSE but that was unreliable as the accuracies kept varying due to randomly shuffling the dataset. Second highest I got was 91.6% on the perceptron model, but again it varied a lot due to the randomness of shuffling. The best reliable model was the Bayes model which gave me an accuracy of 88.33% and F1 score of 0.844 which I would choose among the 3 best models I was able to create.
+
